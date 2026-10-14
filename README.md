@@ -2,6 +2,9 @@ lab 1 :Data Exploration & Foundational Math
 
 This project covers data cleaning, summary statistics, data visualization, correlation, vector dot products, 
 and feature scaling using Python, Pandas, NumPy, and Matplotlib inside a Jupyter Notebook.
+
+
+
 📁 What's Inside
 The Jupyter Notebook includes all the lab tasks completed step by step:
 - **Part A:** Inspecting and cleaning data (fixing missing values, outliers like 50 hours, and impossible values like -10 attendance).
