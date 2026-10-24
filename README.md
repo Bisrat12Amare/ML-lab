@@ -19,5 +19,32 @@ How to Run the Code
 2. Open it in **Jupyter Notebook** or upload it to **Google Colab**.
 3. Run the cells sequentially to see the data cleaning, outputs, and generated plots.
 
+ 
+ML Lab 2: Support Ticket Resolution Prediction
+
+ Project objective
+This project compares regression models for predicting software support ticket resolution time in hours using a synthetic dataset.
+
+ Dataset
+The dataset contains ticket complexity, code lines changed, team experience, reopening status, and resolution time.
+
+ Models
+- Dummy Regressor
+- Linear Regression
+- Polynomial Regression (degrees 2 and 3)
+- Ridge Regression
+- Lasso Regression
+
+ Evaluation
+Models are evaluated using MAE, MSE, RMSE, and R². Cross-validation is used to compare polynomial degrees and select regularization parameters.
+
+Files
+- `ML_Lab_3.ipynb`: notebook containing data inspection, training, evaluation, plots, and conclusions.
+- `lab_ticket_resolution.csv`: dataset used in the experiment.
+
+## Important limitation
+The dataset is synthetic. Feature availability and potential data leakage must be considered before using the model for real predictions.
+
+
 Author
 Bisrat Amare 
